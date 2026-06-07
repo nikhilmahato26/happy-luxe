@@ -125,8 +125,9 @@ export const fleet = [
     name: 'Luxury Urbania 12 Seater',
     category: 'Maharaja Seats · Luxury Van',
     images: [
-      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
-      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780824939/happy%20luxe/Luxury%20Urbania%2012%20Seater%20%28%20Maharja%20Seats%20%29/WhatsApp_Image_2026-06-07_at_11.15.20_eyunco.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780824939/happy%20luxe/Luxury%20Urbania%2012%20Seater%20%28%20Maharja%20Seats%20%29/WhatsApp_Image_2026-06-07_at_11.15.18_1_sczbiy.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780824939/happy%20luxe/Luxury%20Urbania%2012%20Seater%20%28%20Maharja%20Seats%20%29/WhatsApp_Image_2026-06-07_at_11.15.18_1_sczbiy.jpg'
     ],
     features: ['Maharaja reclining seats', 'Ambient lighting', 'Premium AC', 'Captain comfort'],
   },
@@ -135,8 +136,8 @@ export const fleet = [
     name: 'Urbania 16 Seater',
     category: 'Luxury Van · 16 Seater',
     images: [
-      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780825489/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-07_at_11.16.34_zia1rg.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780825489/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-07_at_11.16.33_1_dbdnok.jpg',
     ],
     features: ['16 luxury seats', 'Ample luggage space', 'Premium interior', 'Group comfort'],
   },
@@ -146,7 +147,7 @@ export const fleet = [
     category: 'Premium Tempo · 16 Seater',
     images: [
       'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
-      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826214/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.20.19_t2exwy.jpg',
     ],
     features: ['Plush premium seats', 'LCD entertainment', 'Long-trip ready', 'Extra legroom'],
   },
@@ -164,8 +165,8 @@ export const fleet = [
     name: 'Ultra Luxury 12 Seater Urbania',
     category: 'Ultra Luxury Van · 12 Seater',
     images: [
-      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
-      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826332/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.23.25_ciq2es.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826333/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.23.26_o9gnp6.jpg',
     ],
     features: ['Ultra-premium cabin', 'Reclining luxury seats', 'Personal reading lights', 'Charging ports'],
   },
@@ -174,7 +175,8 @@ export const fleet = [
     name: 'Urbania 12 Seater',
     category: 'Luxury Van · 12 Seater',
     images: [
-      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826910/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.24.36_zyg0su.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826910/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.24.36_1_a2djsz.jpg',
     ],
     features: ['12 luxury seats', 'Ambient lighting', 'Comfort AC', 'Ideal for groups'],
   },
@@ -183,8 +185,8 @@ export const fleet = [
     name: 'Tempo Traveler Premium 12 Seater',
     category: 'Premium Tempo · 12 Seater',
     images: [
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
-      'https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_x9r1ug.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_1_yslv8c.jpg',
     ],
     features: ['Premium push-back seats', 'Music system', 'Curtains & blinds', 'Long-distance comfort'],
   },
@@ -193,8 +195,8 @@ export const fleet = [
     name: 'Urbania Modified 16 Seater Premium',
     category: 'Modified Luxury Van · 16 Seater',
     images: [
-      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
-      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_x9r1ug.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_1_yslv8c.jpg',
     ],
     features: ['Custom premium interiors', '16 recliner seats', 'Mood lighting', 'Entertainment system'],
   },
@@ -203,8 +205,8 @@ export const fleet = [
     name: 'Premium Modified Urbania',
     category: 'Modified Luxury Van',
     images: [
-      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827310/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.29.50_zcwv24.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827310/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.29.50_1_yltc8n.jpg',
     ],
     features: ['Bespoke luxury fit-out', 'Premium upholstery', 'VIP seating', 'Stylish décor'],
   },
@@ -213,8 +215,8 @@ export const fleet = [
     name: 'XUV700 Top Model Luxury 7 Seater',
     category: 'Premium SUV · 7 Seater',
     images: [
-      'https://imgd.aeplcdn.com/664x374/n/cw/ec/205104/xuv-7xo-exterior-right-front-three-quarter-547.png?isig=0&q=80',
-      'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827484/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.30.35_vmqivz.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.30.36_glolhs.jpg',
     ],
     features: ['Panoramic sunroof', 'ADAS safety suite', 'Premium sound system', '7 luxury seats'],
   },
@@ -223,8 +225,8 @@ export const fleet = [
     name: 'Premium Coaches / Buses',
     category: '45 / 49 / 53 Seater',
     images: [
-      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop',
-      'https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.31.57_cyletr.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.31.58_gs3tge.jpg',
     ],
     features: ['45 / 49 / 53 seater options', 'Reclining seats', 'Onboard entertainment', 'Large luggage bays'],
   },
@@ -233,8 +235,8 @@ export const fleet = [
     name: 'Premium Innova Crysta 7 Seater',
     category: 'Premium SUV · 7 Seater',
     images: [
-      'https://cdn.carhp.in/toyota/toyota_innova_hycross_super_white.jpg?format=webp&width=800&q=75',
-      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=1600&auto=format&fit=crop',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.37.45_rgvlgy.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827484/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.37.46_1_d06nyq.jpg',
     ],
     features: ['Smooth ride quality', 'Spacious 7-seat cabin', 'Climate control', 'Family favourite'],
   },
@@ -348,26 +350,33 @@ export const faqs = [
 
 // ── Footer -----------------------------------------------------------------
 // ── Campervan / Travel Vans ------------------------------------------------
+export const campervanVideo =
+  'https://res.cloudinary.com/dynbpb9u0/video/upload/v1780827787/happy%20luxe/WhatsApp_Video_2026-06-07_at_11.20.49_sz3bfc.mp4';
+
 export const campervanImages = [
   {
-    label: 'Luxury Urbania Van',
-    image: 'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+    label: 'Campervan Exterior',
+    image: 'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827778/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.22.15_1_ufoagb.jpg',
   },
   {
-    label: 'Premium Van Interior',
-    image: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+    label: 'Premium Interior',
+    image: 'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827778/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.22.15_2_qjsvlb.jpg',
   },
   {
-    label: 'Scenic Road Journey',
-    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1600&auto=format&fit=crop',
+    label: 'Luxury Van',
+    image: 'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827777/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.22.15_ckuxah.jpg',
   },
   {
-    label: 'Group Travel Experience',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop',
+    label: 'Road Journey',
+    image: 'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827777/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.22.17_kixa6s.jpg',
+  },
+  {
+    label: 'Travel Comfort',
+    image: 'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827777/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.22.16_hk9vof.jpg',
   },
   {
     label: 'Luxury Travel',
-    image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=1600&auto=format&fit=crop',
+    image: 'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827777/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.22.17_1_ieudax.jpg',
   },
 ];
 
