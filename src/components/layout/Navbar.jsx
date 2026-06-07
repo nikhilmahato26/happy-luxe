@@ -21,8 +21,8 @@ export default function Navbar() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-          scrolled ? 'glass-strong shadow-glass py-2.5' : 'bg-transparent py-4'
+        className={`fixed inset-x-0 top-0 z-50 bg-white transition-all duration-500 ${
+          scrolled ? 'shadow-glass py-2.5' : 'shadow-soft py-4'
         }`}
       >
         <div className="container-x flex items-center justify-between">

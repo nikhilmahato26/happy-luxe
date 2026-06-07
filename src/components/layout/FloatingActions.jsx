@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { Phone, CalendarCheck } from 'lucide-react';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { whatsappLink, telLink, GENERAL_ENQUIRY } from '../../utils/whatsapp';
+import { business } from '../../data/siteContent';
 
 /**
  * FloatingActions — sticky WhatsApp / Call / Book Now buttons.
@@ -20,6 +21,17 @@ export default function FloatingActions() {
       >
         <CalendarCheck className="h-5 w-5 text-gold-soft" />
         Book Now
+      </a>
+
+      <a
+        href={business.instagramUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram Happy Luxe Travels"
+        className="flex h-14 w-14 items-center justify-center rounded-full text-white shadow-[0_10px_30px_-8px_rgba(193,53,132,0.6)] transition-transform hover:scale-105"
+        style={{ background: 'radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)' }}
+      >
+        <FaInstagram className="h-6 w-6" />
       </a>
 
       <a

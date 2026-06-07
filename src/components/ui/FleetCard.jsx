@@ -1,13 +1,23 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Check, ArrowUpRight } from 'lucide-react';
+import { Check, ArrowUpRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { fadeUp, viewport } from '../../utils/animations';
 import { whatsappLink, vehicleEnquiry } from '../../utils/whatsapp';
 
-/**
- * FleetCard — large premium vehicle card with image zoom and Book CTA.
- */
 export default function FleetCard({ vehicle }) {
+  const images = vehicle.images?.length ? vehicle.images : vehicle.image ? [vehicle.image] : [];
+  const [current, setCurrent] = useState(0);
+
+  const prev = (e) => {
+    e.preventDefault();
+    setCurrent((c) => (c - 1 + images.length) % images.length);
+  };
+  const next = (e) => {
+    e.preventDefault();
+    setCurrent((c) => (c + 1) % images.length);
+  };
+
   return (
     <motion.article
       variants={fadeUp}
@@ -19,13 +29,51 @@ export default function FleetCard({ vehicle }) {
       className="group relative flex flex-col overflow-hidden rounded-4xl glass-strong shadow-glass-lg"
     >
       <div className="relative h-60 overflow-hidden">
-        <img
-          src={vehicle.image}
-          alt={`${vehicle.name} — Happy Luxe Travels luxury fleet`}
-          loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-[1300ms] ease-out group-hover:scale-110"
-        />
+        {images.map((src, i) => (
+          <img
+            key={i}
+            src={src}
+            alt={`${vehicle.name} — Happy Luxe Travels`}
+            loading="lazy"
+            className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-500 ${
+              i === current ? 'opacity-100' : 'opacity-0'
+            } group-hover:scale-110 transition-transform duration-[1300ms] ease-out`}
+          />
+        ))}
+
         <div className="absolute inset-0 bg-gradient-to-t from-navy-950/85 via-navy-950/15 to-transparent" />
+
+        {images.length > 1 && (
+          <>
+            <button
+              onClick={prev}
+              aria-label="Previous image"
+              className="absolute left-2 top-1/2 z-10 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <button
+              onClick={next}
+              aria-label="Next image"
+              className="absolute right-2 top-1/2 z-10 -translate-y-1/2 flex h-8 w-8 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+
+            <div className="absolute bottom-14 inset-x-0 flex justify-center gap-1.5 z-10">
+              {images.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={(e) => { e.preventDefault(); setCurrent(i); }}
+                  aria-label={`Go to image ${i + 1}`}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${
+                    i === current ? 'w-5 bg-gold-soft' : 'w-1.5 bg-white/60'
+                  }`}
+                />
+              ))}
+            </div>
+          </>
+        )}
 
         <span className="absolute left-4 top-4 rounded-full glass-dark px-3 py-1 text-[0.7rem] font-semibold uppercase tracking-wider text-gold-soft">
           {vehicle.category}

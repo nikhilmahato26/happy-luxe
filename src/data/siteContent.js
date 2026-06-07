@@ -20,8 +20,9 @@ export const business = {
   whatsapp: '918796537779', // wa.me format, no '+'
   email: 'happyluxetravels@gmail.com',
   website: 'www.happyluxetravels.com',
-  instagram: '@HappyLuxeTravels',
-  instagramUrl: 'https://instagram.com/HappyLuxeTravels',
+  instagram: '@happyluxetravels',
+  instagramUrl: 'https://www.instagram.com/happyluxetravels?igsh=NWx6Zzd4Y2VucWRs',
+  googleReviewUrl: 'https://share.google/66zhseaX8w7XURPUv',
   hours: 'Available 24 / 7',
 };
 
@@ -120,52 +121,122 @@ export const specialities = [
 // ── Fleet ------------------------------------------------------------------
 export const fleet = [
   {
-    id: 'urbania',
-    name: 'Force Urbania',
-    category: 'Luxury Van · 9–16 Seater',
-    image:
+    id: 'urbania-12-maharaja',
+    name: 'Luxury Urbania 12 Seater',
+    category: 'Maharaja Seats · Luxury Van',
+    images: [
       'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
-    features: ['Reclining seats', 'Ambient lighting', 'Captain comfort'],
+      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Maharaja reclining seats', 'Ambient lighting', 'Premium AC', 'Captain comfort'],
   },
   {
-    id: 'tempo',
-    name: 'Tempo Traveller Maharaja',
-    category: 'Premium Luxury Traveller',
-    image:
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif ',
-    features: ['Plush interiors', 'Group comfort', 'Long-trip ready'],
+    id: 'urbania-16',
+    name: 'Urbania 16 Seater',
+    category: 'Luxury Van · 16 Seater',
+    images: [
+      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['16 luxury seats', 'Ample luggage space', 'Premium interior', 'Group comfort'],
   },
   {
-    id: 'innova',
-    name: 'Toyota Innova',
-    category: 'Premium SUV · 7 Seater',
-    image:
-      'https://cdn.carhp.in/toyota/toyota_innova_hycross_super_white.jpg?format=webp&width=800&q=75',
-    features: ['Smooth ride', 'Spacious cabin', 'Family favourite'],
+    id: 'tempo-premium-16',
+    name: 'Tempo Traveler Premium 16 Seater',
+    category: 'Premium Tempo · 16 Seater',
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
+      'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Plush premium seats', 'LCD entertainment', 'Long-trip ready', 'Extra legroom'],
+  },
+  {
+    id: 'tempo-16',
+    name: 'Tempo Traveler 16 Seater',
+    category: 'Tempo Traveler · 16 Seater',
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
+    ],
+    features: ['16 comfortable seats', 'Group travel', 'Spacious cabin', 'Reliable AC'],
+  },
+  {
+    id: 'urbania-ultra-12',
+    name: 'Ultra Luxury 12 Seater Urbania',
+    category: 'Ultra Luxury Van · 12 Seater',
+    images: [
+      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Ultra-premium cabin', 'Reclining luxury seats', 'Personal reading lights', 'Charging ports'],
+  },
+  {
+    id: 'urbania-12',
+    name: 'Urbania 12 Seater',
+    category: 'Luxury Van · 12 Seater',
+    images: [
+      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+    ],
+    features: ['12 luxury seats', 'Ambient lighting', 'Comfort AC', 'Ideal for groups'],
+  },
+  {
+    id: 'tempo-premium-12',
+    name: 'Tempo Traveler Premium 12 Seater',
+    category: 'Premium Tempo · 12 Seater',
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
+      'https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Premium push-back seats', 'Music system', 'Curtains & blinds', 'Long-distance comfort'],
+  },
+  {
+    id: 'urbania-modified-16',
+    name: 'Urbania Modified 16 Seater Premium',
+    category: 'Modified Luxury Van · 16 Seater',
+    images: [
+      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+      'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Custom premium interiors', '16 recliner seats', 'Mood lighting', 'Entertainment system'],
+  },
+  {
+    id: 'urbania-modified',
+    name: 'Premium Modified Urbania',
+    category: 'Modified Luxury Van',
+    images: [
+      'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Bespoke luxury fit-out', 'Premium upholstery', 'VIP seating', 'Stylish décor'],
   },
   {
     id: 'xuv700',
-    name: 'Mahindra XUV700',
-    category: 'Premium SUV',
-    image:
+    name: 'XUV700 Top Model Luxury 7 Seater',
+    category: 'Premium SUV · 7 Seater',
+    images: [
       'https://imgd.aeplcdn.com/664x374/n/cw/ec/205104/xuv-7xo-exterior-right-front-three-quarter-547.png?isig=0&q=80',
-    features: ['Bold design', 'Advanced safety', 'Premium tech'],
+      'https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Panoramic sunroof', 'ADAS safety suite', 'Premium sound system', '7 luxury seats'],
   },
   {
-    id: 'ev',
-    name: 'Luxury EV',
-    category: 'Electric · Sustainable Luxury',
-    image:
-      'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=1600&auto=format&fit=crop',
-    features: ['Zero emissions', 'Silent cabin', 'Future-ready'],
-  },
-  {
-    id: 'bus',
-    name: 'Luxury Coach',
-    category: 'Bus · Large Group',
-    image:
+    id: 'coaches',
+    name: 'Premium Coaches / Buses',
+    category: '45 / 49 / 53 Seater',
+    images: [
       'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop',
-    features: ['High capacity', 'Onboard comfort', 'Event-ready'],
+      'https://images.unsplash.com/photo-1464219789935-c2d9d9aba644?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['45 / 49 / 53 seater options', 'Reclining seats', 'Onboard entertainment', 'Large luggage bays'],
+  },
+  {
+    id: 'innova-crysta',
+    name: 'Premium Innova Crysta 7 Seater',
+    category: 'Premium SUV · 7 Seater',
+    images: [
+      'https://cdn.carhp.in/toyota/toyota_innova_hycross_super_white.jpg?format=webp&width=800&q=75',
+      'https://images.unsplash.com/photo-1609521263047-f8f205293f24?q=80&w=1600&auto=format&fit=crop',
+    ],
+    features: ['Smooth ride quality', 'Spacious 7-seat cabin', 'Climate control', 'Family favourite'],
   },
 ];
 
@@ -272,6 +343,31 @@ export const faqs = [
   {
     q: 'Do you handle corporate and group travel?',
     a: 'Yes — corporate travel and group tours are among our specialities, with executive-grade reliability, billing support and vehicles for every group size.',
+  },
+];
+
+// ── Footer -----------------------------------------------------------------
+// ── Campervan / Travel Vans ------------------------------------------------
+export const campervanImages = [
+  {
+    label: 'Luxury Urbania Van',
+    image: 'https://i0.wp.com/khivraj.com/wp-content/uploads/2025/05/Urbania-SWB.png?fit=438%2C226&ssl=1',
+  },
+  {
+    label: 'Premium Van Interior',
+    image: 'https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    label: 'Scenic Road Journey',
+    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    label: 'Group Travel Experience',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1600&auto=format&fit=crop',
+  },
+  {
+    label: 'Luxury Travel',
+    image: 'https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=1600&auto=format&fit=crop',
   },
 ];
 
