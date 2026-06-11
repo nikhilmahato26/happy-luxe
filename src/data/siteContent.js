@@ -51,8 +51,8 @@ export const hero = {
     'Airport Transfers',
   ],
   stats: [
-    { value: 15, suffix: '+', label: 'Years of luxury travel' },
-    { value: 30000, suffix: '+', label: 'Journeys completed' },
+    { value: 100, suffix: '%', label: 'Customer-focused service' },
+    { value: 50, suffix: '+', label: 'Luxury fleet vehicles' },
     { value: 50, suffix: '+', label: 'Premium vehicles' },
     { value: 4.9, suffix: '★', label: 'Guest rating', decimals: 1 },
   ],
