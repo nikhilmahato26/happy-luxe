@@ -52,7 +52,7 @@ export const hero = {
   ],
   stats: [
     { value: 100, suffix: '%', label: 'Customer-focused service' },
-    { value: 50, suffix: '+', label: 'Luxury fleet vehicles' },
+    { value: 24, suffix: '/7', label: 'Booking support available' },
     { value: 50, suffix: '+', label: 'Premium vehicles' },
     { value: 4.9, suffix: '★', label: 'Guest rating', decimals: 1 },
   ],
