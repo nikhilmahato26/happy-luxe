@@ -30,7 +30,6 @@ export const business = {
 export const navLinks = [
   { label: 'Home', href: '#home' },
   { label: 'Services', href: '#services' },
-  { label: 'Fleet', href: '#fleet' },
   { label: 'Packages', href: '#packages' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Contact', href: '#contact' },
@@ -68,6 +67,21 @@ export const services = [
     description:
       'Force Urbania luxury vans with reclining seats, ambient lighting and premium comfort.',
     tags: ['9 Seater', '12 Seater', '16 Seater'],
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780824939/happy%20luxe/Luxury%20Urbania%2012%20Seater%20%28%20Maharja%20Seats%20%29/WhatsApp_Image_2026-06-07_at_11.15.20_eyunco.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780824939/happy%20luxe/Luxury%20Urbania%2012%20Seater%20%28%20Maharja%20Seats%20%29/WhatsApp_Image_2026-06-07_at_11.15.18_1_sczbiy.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780825489/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-07_at_11.16.34_zia1rg.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826332/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.23.25_ciq2es.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.07_u4vrqr.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.07_1_kpz8ek.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.06_1_rbpaca.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.06_emz1op.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.36_1_p7bnrn.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.36_eilcyv.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166687/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.35_ju7zlf.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166695/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.05_1_jchowj.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166687/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.38_v7rhbb.jpg'
+    ]
   },
   {
     id: 'tempo',
@@ -76,6 +90,16 @@ export const services = [
     description:
       'The Maharaja edition — a premium luxury traveller for plush group journeys.',
     tags: ['Premium Luxury Traveller'],
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_1_cdynzw.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_2_d3nhau.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_hhkhc9.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_kkmh5i.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_1_ahgih7.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_mhfaqd.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_2_nruk6g.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_1_qianhc.jpg'
+    ]
   },
   {
     id: 'suv',
@@ -84,6 +108,12 @@ export const services = [
     description:
       'Toyota Innova, Mahindra XUV700 and luxury EVs for refined private travel.',
     tags: ['Toyota Innova', 'Mahindra XUV700', 'Luxury EVs'],
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827484/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.30.35_vmqivz.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.30.36_glolhs.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.37.45_rgvlgy.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827484/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.37.46_1_d06nyq.jpg'
+    ]
   },
   {
     id: 'buses',
@@ -91,6 +121,17 @@ export const services = [
     title: 'Luxury Buses & Coaches',
     description:
       'Spacious, immaculate coaches for large groups, events and corporate offsites.',
+    images: [
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.31.57_cyletr.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.31.58_gs3tge.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168206/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.11_mkfvds.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.11_2_khuutm.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.12_1_oh8gvz.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.11_1_qlkhws.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.12_em62ps.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168204/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.13_hmpfp8.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168203/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.13_1_ecv0cb.jpg'
+    ]
   },
   {
     id: 'outstation',
@@ -98,6 +139,10 @@ export const services = [
     title: 'Outstation Trips',
     description:
       'Comfortable long-distance journeys with experienced chauffeurs and transparent fares.',
+    images: [
+      'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop'
+    ]
   },
   {
     id: 'airport',
@@ -105,6 +150,10 @@ export const services = [
     title: 'Airport Transfers',
     description:
       'Punctual airport pickup & drop with flight tracking and a seamless meet-and-greet.',
+    images: [
+      'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1600&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1600&auto=format&fit=crop'
+    ]
   },
 ];
 
@@ -138,6 +187,15 @@ export const fleet = [
     images: [
       'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780825489/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-07_at_11.16.34_zia1rg.jpg',
       'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780825489/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-07_at_11.16.33_1_dbdnok.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.07_u4vrqr.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.07_1_kpz8ek.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.06_1_rbpaca.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.06_emz1op.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.36_1_p7bnrn.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.36_eilcyv.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166687/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.35_ju7zlf.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166695/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.05_1_jchowj.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166687/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.38_v7rhbb.jpg'
     ],
     features: ['16 luxury seats', 'Ample luggage space', 'Premium interior', 'Group comfort'],
   },
@@ -146,8 +204,14 @@ export const fleet = [
     name: 'Tempo Traveler Premium 16 Seater',
     category: 'Premium Tempo · 16 Seater',
     images: [
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780826214/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.20.19_t2exwy.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_1_cdynzw.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_2_d3nhau.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_hhkhc9.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_kkmh5i.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_1_ahgih7.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_mhfaqd.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_2_nruk6g.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_1_qianhc.jpg'
     ],
     features: ['Plush premium seats', 'LCD entertainment', 'Long-trip ready', 'Extra legroom'],
   },
@@ -156,7 +220,14 @@ export const fleet = [
     name: 'Tempo Traveler 16 Seater',
     category: 'Tempo Traveler · 16 Seater',
     images: [
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1777546989/client/force-4020wb-tempo-traveller-bus-19-seater-2224664623-1gw19a0n_po8fpa.avif',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_1_cdynzw.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_2_d3nhau.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_hhkhc9.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_kkmh5i.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_1_ahgih7.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_mhfaqd.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_2_nruk6g.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_1_qianhc.jpg'
     ],
     features: ['16 comfortable seats', 'Group travel', 'Spacious cabin', 'Reliable AC'],
   },
@@ -185,8 +256,14 @@ export const fleet = [
     name: 'Tempo Traveler Premium 12 Seater',
     category: 'Premium Tempo · 12 Seater',
     images: [
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_x9r1ug.jpg',
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_1_yslv8c.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_1_cdynzw.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_2_d3nhau.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.30_hhkhc9.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_kkmh5i.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167335/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.29_1_ahgih7.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_mhfaqd.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_2_nruk6g.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781167334/happy%20luxe/traveller/WhatsApp_Image_2026-06-10_at_01.51.31_1_qianhc.jpg'
     ],
     features: ['Premium push-back seats', 'Music system', 'Curtains & blinds', 'Long-distance comfort'],
   },
@@ -195,8 +272,15 @@ export const fleet = [
     name: 'Urbania Modified 16 Seater Premium',
     category: 'Modified Luxury Van · 16 Seater',
     images: [
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_x9r1ug.jpg',
-      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827134/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.28.52_1_yslv8c.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.07_u4vrqr.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.07_1_kpz8ek.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166685/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.06_1_rbpaca.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.06_emz1op.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.36_1_p7bnrn.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166686/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.36_eilcyv.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166687/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.35_ju7zlf.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166695/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.34.05_1_jchowj.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781166687/happy%20luxe/urbania%2016%20seater/WhatsApp_Image_2026-06-10_at_01.33.38_v7rhbb.jpg'
     ],
     features: ['Custom premium interiors', '16 recliner seats', 'Mood lighting', 'Entertainment system'],
   },
@@ -227,6 +311,13 @@ export const fleet = [
     images: [
       'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.31.57_cyletr.jpg',
       'https://res.cloudinary.com/dynbpb9u0/image/upload/v1780827486/happy%20luxe/WhatsApp_Image_2026-06-07_at_11.31.58_gs3tge.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168206/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.11_mkfvds.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.11_2_khuutm.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.12_1_oh8gvz.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.11_1_qlkhws.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168205/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.12_em62ps.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168204/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.13_hmpfp8.jpg',
+      'https://res.cloudinary.com/dynbpb9u0/image/upload/v1781168203/happy%20luxe/WhatsApp_Image_2026-06-10_at_01.55.13_1_ecv0cb.jpg'
     ],
     features: ['45 / 49 / 53 seater options', 'Reclining seats', 'Onboard entertainment', 'Large luggage bays'],
   },

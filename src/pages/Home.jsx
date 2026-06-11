@@ -1,7 +1,6 @@
 import Hero from '../components/sections/Hero';
 import Services from '../components/sections/Services';
 import Specialities from '../components/sections/Specialities';
-import Fleet from '../components/sections/Fleet';
 import CampervanHighlight from '../components/sections/CampervanHighlight';
 import WhyChooseUs from '../components/sections/WhyChooseUs';
 import Packages from '../components/sections/Packages';
@@ -21,7 +20,6 @@ export default function Home() {
       <Hero />
       <Services />
       <Specialities />
-      <Fleet />
       <CampervanHighlight />
       <WhyChooseUs />
       <Packages />

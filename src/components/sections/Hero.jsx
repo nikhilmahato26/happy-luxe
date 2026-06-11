@@ -92,7 +92,7 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.45 }}
             className="mt-9 flex flex-wrap gap-4"
           >
-            <Button href="#fleet" variant="gold" size="lg" icon={ArrowRight} iconRight>
+            <Button href="#contact" variant="gold" size="lg" icon={ArrowRight} iconRight>
               Book Your Ride
             </Button>
             <Button href="#packages" variant="glass" size="lg" icon={MapPin}>
